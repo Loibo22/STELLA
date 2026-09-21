@@ -1,7 +1,7 @@
 README:
 
 
-**STELLA**
+#STELLA
 
 A space based game around rockets.
 
@@ -14,7 +14,7 @@ The build_menu allows you to create your own spacecraft from individaul parts, m
 ![build_menu](s_2.png)
 ![game :)](s_3.png)
 
-**Features:**
+##Features:
 
 **Rocket Building**
 	Build custom rockets with different parts
@@ -57,7 +57,7 @@ The build_menu allows you to create your own spacecraft from individaul parts, m
 	Use different time warp speeds
 
 
-**How to Play:**
+##How to Play:
 
 Click on the PLAY button and navigate through the game until you reach the Space Center.
 Click on the large Space Center building to enter the Build Menu.

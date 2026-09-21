@@ -10,7 +10,10 @@ STELLA is a browser-based space simulation game where you can build, launch and 
 The build_menu allows you to create your own spacecraft from individaul parts, manage fuel systems and stages, and then test them in a simulated solar system. The project is built from scratch using JavaScript, including the physics, orbital calculations, terrain generation and map system.
 
 
-![Screenshot_1](/s_1.png)
+![main_menu](s_1.png)
+![build_menu](s_2.png)
+![game :)](s_3.png)
+
 Features:
 
 Rocket Building

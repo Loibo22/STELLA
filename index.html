@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tiny5&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Stella</title>
+    <script>
+        window.onerror = function(msg, src, line, col, err){
+            const box = document.getElementById('errbox');
+            box.style.display = 'block';
+            box.textContent += `${msg} @ ${src}:${line}:${col}\n`;
+        };
+    </script>
+</head>
+<body>
+    <div id="errbox" style="position:fixed;bottom:0;left:0;right:0;background:red;color:white;font:12px monospace;padding:8px;white-space:pre-wrap;z-index:9999;display:none;"></div>
+
+    <div class="sky">
+        
+        <div class="earth-moon">
+            <img src="assets/earth.png" class="earth">
+            <img src="assets/moon.png" class="moon">
+        </div>
+    </div>
+
+    <div id="landing">
+        <div class="tabs">
+            <button class="tab-btn " data-tab="0">info</button>
+            <button class="tab-btn active" data-tab="1">test</button>
+            <button class="tab-btn" data-tab="2">test1</button>
+            <button class="tab-btn" data-tab="3">PLAY</button>
+
+
+        </div>
+
+        <div class="panel" id="panel">
+            <div class="text">
+                <h1 id="tab-title">Test hallo</h1>
+                <p id="tab-desc">welcome</p>
+                <ul id="tab-list">
+                    <li>first</li>
+                    <li>first</li>
+                    <li>first</li>
+                </ul>
+            </div>
+            <img class="picture" id="tab-image" src="assets/fuel_inner.png">
+        </div>
+
+        <div id="start-overlay">
+          <div class="start-wrap">
+                        <button id="start-game-btn">start</button>
+
+                        <img class= "start-icon" src="assets/fuel_outer.png">
+          </div>
+
+        </div>
+    </div>
+
+    <div id="screen" style="display:none;"></div>
+
+    <script src="script.js"></script>
+    <script type="module" src="main.js"></script>
+</body>
+</html>

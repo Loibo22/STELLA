@@ -1,0 +1,1 @@
+export const game_State = {current_Screen: 'MAIN_MENU', buildmode: 0, money: 1000, active_rocket: null, time_scale:1};

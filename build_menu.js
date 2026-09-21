@@ -353,7 +353,7 @@ function get_default_tank_number(part) {
 
 function set_tank_mode(value) {
   tank_mode = value;
-  Img_Fueltank_Empty_M_S2.src = tank_mode === 1 ? 'assets/Empty_Structure_S2_m1.png' : 'assets/Empty_Structure_S2_M.png';
+  Img_Fueltank_Empty_M_S2.src = tank_mode === 1 ? 'assets/Empty_Structure_S2_MM.png' : 'assets/Empty_Structure_S2_M.png';
 }
 
 function get_symmetry_center_X() {

@@ -19,7 +19,7 @@ export const Img_Seperator_1 = new Image();
 Img_Seperator_1.src = 'assets/seperator_side_s2.png'; 
 
 export const Img_Fueltank_Empty_M_S2 = new Image();
-Img_Fueltank_Empty_M_S2.src = 'assets/Empty_Structure_S2_m.png';
+Img_Fueltank_Empty_M_S2.src = 'assets/Empty_Structure_S2_M.png';
 
 
 export const Img_Fuel_Outer = new Image();
